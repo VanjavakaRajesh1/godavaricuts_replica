@@ -1,0 +1,54 @@
+*{
+    font-family: "Fredoka", sans-serif;
+    
+}
+.main{
+    background-image: url("assets/banner.png");
+    background-size: cover;
+    background-position: top;
+}
+.main .carousel-inner{
+    border: 5px solid white;
+}
+.buy{
+    background-color: #fefaee;
+}
+.card{
+    box-shadow: 1px 1px 5px 5px rgb(218, 189, 135);
+    border: 1px solid rgb(176, 173, 173) !important;
+    border-radius: 10px !important;
+    overflow: hidden;
+    padding: 10px;
+    height: 100% !important;
+    
+}
+.card img{
+    height: 60% !important;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    border-radius: 10px !important;
+}
+.categories img{
+    box-shadow: 1px 1px 5px 5px rgb(218, 189, 135);
+    padding: 5px;
+    border: 2px solid rgb(218, 189, 135) !important;
+    border-radius: 50%;
+}
+.shop_cat a:hover{
+    background-color: #FFC107 !important;
+}
+.signup_form{
+    background-color: #fefaee;
+}
+footer{
+    background-color: #262626;
+}
+
+@media (max-width:768px) {
+    .main{
+        height: auto;
+    }
+
+}
